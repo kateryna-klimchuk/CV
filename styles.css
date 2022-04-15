@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 22px;
+    /* background-color: rgb(155, 204, 204); */
+}
+
+
+
+li {
+    list-style: circle;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    padding-left: 30px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.conteiner {
+    margin: 0 auto;
+}
+
+.main-content {
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+padding: 50px 50px;
+background-color: rgb(227, 234, 240);
+}
+
+
+.about {
+    padding: 50px;
+    background: beige;
+}
+
+.head-title {
+    font-size: 42px;
+}
+.head-title, .title {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.title {
+    background-color: beige;
+    padding: 2px 25px;
+    width: fit-content;
+}
+
+
+.main-info {
+    margin-bottom: 20px;
+}
+
+
+/* --------- education--------- */
+.education, .expirience, .projects {
+    margin-top: 40px;
+}
+
+.education-date, .expirience-date {
+    font-size: 20px;
+}
+
+/* -------work expirience-------- */
+
+
+.expirience-item, .education-item {
+    list-style: none;
+}
+
+/* sidebar */
+.sidebar {
+    background-color: #506865;
+    padding: 60px;
+}
+
+.side-list {
+    margin-top: 20px;
+}
