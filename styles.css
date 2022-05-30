@@ -1,4 +1,7 @@
 body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Roboto',
     sans-serif;
     font-size: 22px;
@@ -27,9 +30,6 @@ p {
     margin-top: 0;
 }
 
-button {
-    cursor: pointer;
-}
 
 img {
     display: block;
@@ -69,7 +69,7 @@ background-color: rgb(227, 234, 240);
 }
 
 .head-title {
-    font-size: 42px;
+    font-size: 36px;
 }
 .head-title, .title {
     text-transform: uppercase;
@@ -80,6 +80,8 @@ background-color: rgb(227, 234, 240);
     background-color: beige;
     padding: 2px 25px;
     width: fit-content;
+    margin-top: 60px;
+    font-size: 27px;
 }
 
 
@@ -99,7 +101,9 @@ background-color: rgb(227, 234, 240);
 
 /* -------work expirience-------- */
 
-
+.expirience-item {
+    margin-top: 30px;
+}
 .expirience-item, .education-item {
     list-style: none;
 }
